@@ -1,28 +1,28 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Stratus Exchange",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#FF7207",
+    "light": "#FF9443",
+    "dark": "#FF7207",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#FF7207",
+      "to": "#FF7207"
     }
   },
   "topbarLinks": [
     {
-      "name": "Support",
+      "name": "Join Discord",
       "url": "mailto:hi@mintlify.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
+    "name": "Launch App",
     "url": "https://dashboard.mintlify.com"
   },
   "tabs": [
@@ -51,28 +51,49 @@
   "navigation": [
     {
       "group": "Get Started",
+      "pages": ["introduction", "faq"]
+    },
+    {
+      "group": "Core Primitives",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        {
+          "group": "Earn — Maximize Yields",
+          "pages": ["Farms", "Stake", "Vote"]
+        },
+        {
+          "group": "Liquidity — Amplify Capital Efficiency",
+          "pages": ["pools-architecture", "Add Liquidity", "Native Zap In"]
+        },
+        {
+          "group": "Trade — Access Unified Liquidity",
+          "pages": [
+            "Aggregation Mode",
+            "Split Route Trading",
+            "Multi-hop Routing",
+            "Cross-pool Execution"
+          ]
+        },
+        "StratusEx",
+        "Protocol Fees",
+        "Risks"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Tokenomics",
+      "pages": ["Emission Schedule", "Allocation"]
+    },
+    {
+      "group": "Ecosystem",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        {
+          "group": "Built with Stratus",
+          "pages": ["API Reference"]
+        }
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "group": "Resources",
+      "pages": ["Discord","Twitter","Brand Assets", "Discalimer & Terms"]
     },
     {
       "group": "Endpoint Examples",
