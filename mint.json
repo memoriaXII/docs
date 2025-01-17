@@ -58,7 +58,7 @@
       "pages": [
         {
           "group": "Earn — Maximize Yields",
-          "pages": ["farms", "stake"]
+          "pages": ["core-primitives/farms", "core-primitives/stake"]
         },
         {
           "group": "Liquidity — Amplify Capital Efficiency",
