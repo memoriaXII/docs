@@ -58,7 +58,7 @@
       "pages": [
         {
           "group": "Earn — Maximize Yields",
-          "pages": ["Farms", "Stake", "Vote"]
+          "pages": ["farms", "stake", "Vote"]
         },
         {
           "group": "Liquidity — Amplify Capital Efficiency",
